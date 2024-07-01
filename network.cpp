@@ -10,13 +10,6 @@
 #include <execution>
 #include "network.h"
 
-// #ifdef PARALLEL
-// #include <execution>
-//     namespace execution = std::execution;
-// #else
-//     enum class execution { seq, unseq, par_unseq, par };
-// #endif
-
 using namespace std;
 
 Layer::Layer(int N, int prevN)
